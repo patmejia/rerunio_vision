@@ -59,19 +59,19 @@ python src/sine_wave/wave_creature.py
 ```
 #### *•* Initialize rerun: `init_rerun(data_name)`.
 
+https://github.com/patmejia/rerun_vision/assets/92187562/b582a6df-a2f3-485e-b6dd-b42fd66dcd92
+
 #### *•* Generate positions and colors: `create_positions(x, y, z)` and `create_colors(z, colormap)`.
 
 #### *•* Animate waving flag background: `animate_WaterMesh(t, bg_x, bg_y)`.
 
 #### *•* Animate sine wave surface: `animate_surface(t, total_duration, x, y, colormap)`.
 
-#### *•* Equation: $ z = \sin(\sqrt{x^2 + y^2} - t) + \text{components} $.
+#### *•* Equation: $z = \sin(\sqrt{x^2 + y^2} - t) + \text{components}$.
 
 ---
 
-<video controls autoplay loop muted playsinline title="Title">
-<source src="media/wave_creature/pretty.mp4" type="video/mp4">
-</video>
+
 
 ---
 ### **License & Acknowledgments**
