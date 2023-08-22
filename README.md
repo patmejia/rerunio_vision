@@ -1,5 +1,5 @@
-# rerun_sdk:
-### Computer Vision & Robotics Integration: Towards Real-Time Vision
+# rerun.io
+### Computer Vision & Robotics Integration: `rerun_sdk` -Towards Real-Time Data Analytics
 
 ---
 <p align="center">
@@ -13,7 +13,7 @@
 
 <br>
 
-## Setup
+## *1.* Setup
 
 ```bash
 conda create -n rerun python=3.8
@@ -26,11 +26,11 @@ pip install rerun-sdk matplotlib scipy
 ---
 <br>
 
-## Usage
+## *2.* Usage
 
 <br>
 
-### *1.* Spheres Visualization (spheres_row.py):
+### *Example 1.* Spheres Visualization (spheres_row.py):
 
 ```bash
 python src/spheres_row.py
@@ -45,7 +45,7 @@ python src/spheres_row.py
 ---
 <br>
 
-### *2.* Bessel Wave Animation (3d_bessel.py):
+### *Example 2.* Bessel Wave Animation (3d_bessel.py):
   
 ```bash
 python src/3d_bessel.py
@@ -61,7 +61,7 @@ python src/3d_bessel.py
 
 <br>
 
-### *3.* Sine Wave Animation (wave_creature.py):
+### *Example 3.* Sine Wave Animation (wave_creature.py):
 
 ```bash
 python src/sine_wave/wave_creature.py
