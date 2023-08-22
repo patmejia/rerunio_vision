@@ -31,11 +31,11 @@ pip install rerun-sdk matplotlib scipy
 python src/spheres_row.py
 ```
 
-*•* Initialize rerun: `init_rerun(data_name)`.
+#### *•* Initialize rerun: `init_rerun(data_name)`.
 
-*•* Create positions and colors for spheres: `create_positions(num_positions, start, end)` and `create_colors(num_colors, start, end)`.
+#### *•* Create positions and colors for spheres: `create_positions(num_positions, start, end)` and `create_colors(num_colors, start, end)`.
 
-*•* Log points of spheres: `log_points(name, positions, colors, radii)`.
+#### *•* Log points of spheres: `log_points(name, positions, colors, radii)`.
 
 ---
 ### *2.* Bessel Wave Animation (3d_bessel.py):
@@ -44,11 +44,11 @@ python src/spheres_row.py
 python src/3d_bessel.py
 ```
 
-*•* Initialize rerun: `init_rerun(data_name)`.
+#### *•* Initialize rerun: `init_rerun(data_name)`.
 
-*•* Create Bessel wave positions and log points: `create_bessel_wave(x, y, t, frequency, amplitude, phase_shift)` and `log_points(name, x, y, z, radii)`.
+#### *•* Create Bessel wave positions and log points: `create_bessel_wave(x, y, t, frequency, amplitude, phase_shift)` and `log_points(name, x, y, z, radii)`.
 
-*•* Equation: $ z = \text{Bessel function}(frequency \cdot r + t) \cdot \cos(frequency \cdot \theta + phase\_shift) $.
+#### *•* Equation: $ z = \text{Bessel function}(frequency \cdot r + t) \cdot \cos(frequency \cdot \theta + phase\_shift) $.
 
 ---
 
@@ -57,26 +57,25 @@ python src/3d_bessel.py
 ```bash
 python src/sine_wave/wave_creature.py
 ```
-*•* Initialize rerun: `init_rerun(data_name)`.
+#### *•* Initialize rerun: `init_rerun(data_name)`.
 
-*•* Generate positions and colors: `create_positions(x, y, z)` and `create_colors(z, colormap)`.
+#### *•* Generate positions and colors: `create_positions(x, y, z)` and `create_colors(z, colormap)`.
 
-*•* Animate waving flag background: `animate_WaterMesh(t, bg_x, bg_y)`.
+#### *•* Animate waving flag background: `animate_WaterMesh(t, bg_x, bg_y)`.
 
-*•* Animate sine wave surface: `animate_surface(t, total_duration, x, y, colormap)`.
+#### *•* Animate sine wave surface: `animate_surface(t, total_duration, x, y, colormap)`.
 
-*•* Equation: $ z = \sin(\sqrt{x^2 + y^2} - t) + \text{components} $.
+#### *•* Equation: $ z = \sin(\sqrt{x^2 + y^2} - t) + \text{components} $.
 
-
-#### **Run Sine Wave Animation**:
-
-#### **Run Row of Spheres Visualization**:
-```bash
-python src/spheres_row.py
-```
 ---
 
+<video controls autoplay loop muted playsinline title="Title">
+<source src="media/wave_creature/pretty.mp4" type="video/mp4">
+</video>
+
+---
 ### **License & Acknowledgments**
 #### *•* **License**: MIT license.
 #### *•* **Note**: Rerun.io in early beta; consult [official guidance](https://www.rerun.io/docs/getting-started).
 #### *•* **Acknowledgments**: [rerun.io](https://www.rerun.io)
+---
