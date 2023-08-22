@@ -55,7 +55,7 @@ python src/3d_bessel.py
 
 #### *•* Create Bessel wave positions and log points: `create_bessel_wave(x, y, t, frequency, amplitude, phase_shift)` and `log_points(name, x, y, z, radii)`.
 
-#### *•* Equation: $z = \text{Bessel function}(frequency \cdot r + t) \cdot \cos(frequency \cdot \theta + phase\_shift)$.
+#### *•* Equation: $z = \text{Bessel function}(\text{frequency} \cdot r + t) \cdot \cos(frequency \cdot \theta + \text{phase shift})$.
 
 ---
 
