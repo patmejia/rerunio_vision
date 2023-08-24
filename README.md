@@ -1,13 +1,14 @@
 # rerun.io
+
 ### Computer Vision & Robotics Integration: `rerun_sdk` -Towards Real-Time Data Analytics
 
 ---
+
 <p align="center">
 <img src="media/rerun_vision_robot.png" alt="Alt text" width="423">
 </p>
 
 ### **Objective**: This project utilizes Rerun.io to create precise 3D visualizations for Computer Vision, including animations of a Sine Wave Surface, a Bessel Wave, and Spheres. The point logging feature of Rerun.io is used to accurately map and display the 3D coordinates of these objects.
-
 
 ---
 
@@ -24,6 +25,7 @@ pip install rerun-sdk matplotlib scipy
 #### Official Docs: [rerun.io](https://www.rerun.io/docs/getting-started)
 
 ---
+
 <br>
 
 ## *2.* Usage
@@ -33,7 +35,7 @@ pip install rerun-sdk matplotlib scipy
 ### *Example 1.* Spheres Visualization (spheres_row.py):
 
 ```bash
-python src/spheres_row.py
+python src/demo_reunio_graphics/spheres_row.py
 ```
 
 #### *•* Initialize rerun: `init_rerun(data_name)`.
@@ -43,12 +45,13 @@ python src/spheres_row.py
 #### *•* Log points of spheres: `log_points(name, positions, colors, radii)`.
 
 ---
+
 <br>
 
 ### *Example 2.* Bessel Wave Animation (3d_bessel.py):
-  
+
 ```bash
-python src/3d_bessel.py
+python src/demo_reunio_graphics/3d_bessel.py
 ```
 
 #### *•* Initialize rerun: `init_rerun(data_name)`.
@@ -64,8 +67,9 @@ python src/3d_bessel.py
 ### *Example 3.* Sine Wave Animation (wave_creature.py):
 
 ```bash
-python src/sine_wave/wave_creature.py
+python src/demo_reunio_graphics/wave_creature.py
 ```
+
 #### *•* Initialize rerun: `init_rerun(data_name)`.
 
 https://github.com/patmejia/rerun_vision/assets/92187562/b582a6df-a2f3-485e-b6dd-b42fd66dcd92
@@ -78,12 +82,16 @@ https://github.com/patmejia/rerun_vision/assets/92187562/b582a6df-a2f3-485e-b6dd
 
 #### *•* Equation: $z = \sin(\sqrt{x^2 + y^2} - t) + \text{components}$.
 
-
 ---
+
 <br>
 
 ## **License & Acknowledgments**
+
 #### *•* **License**: MIT license.
+
 #### *•* **Note**: Rerun.io in early beta; consult [official guidance](https://www.rerun.io/docs/getting-started).
+
 #### *•* **Acknowledgments**: [rerun.io](https://www.rerun.io)
+
 ---
