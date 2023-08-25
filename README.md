@@ -12,6 +12,14 @@
 
 ---
 
+<p align="center">
+<img src="media/dna_abacus/dna_abacus.gif" alt="DNA Abacus animation">
+<br>
+<sub><i>Figure: DNA Abacus. To run, execute: <code>python src/dna_abacus.py</code></i></sub>
+</p>
+
+---
+
 ## 1. Setup
 
 ```bash
@@ -29,7 +37,7 @@ pip install rerun-sdk matplotlib scipy
 ### Example 1. Spheres Visualization (spheres_row.py):
 
 ```bash
-python src/demo_reunio_graphics/spheres_row.py
+python src/demo_rerunio_graphics/spheres_row.py
 ```
 
 * Initialize rerun: `init_rerun(data_name)`.
@@ -41,7 +49,7 @@ python src/demo_reunio_graphics/spheres_row.py
 ### Example 2. Bessel Wave Animation (3d_bessel.py):
 
 ```bash
-python src/demo_reunio_graphics/3d_bessel.py
+python src/demo_rerunio_graphics/3d_bessel.py
 ```
 
 * Initialize rerun: `init_rerun(data_name)`.
@@ -50,12 +58,18 @@ python src/demo_reunio_graphics/3d_bessel.py
 
 ---
 
+<p align="center">
+<img src="media/wave_creature/fast.gif" alt="Wave Creature animation">
+<br>
+<sub><i>Figure: Wave Creature. To run, execute: <code>python src/demo_rerunio_graphics/wave_creature.py</code></i></sub>
+</p>
+
+---
+
 ### Example 3. Sine Wave Animation (wave_creature.py):
 
-![wave_creature_fast_gif](media/wave_creature/fast.gif)
-
 ```bash
-python src/demo_reunio_graphics/wave_creature.py
+python src/demo_rerunio_graphics/wave_creature.py
 ```
 
 * Initialize rerun: `init_rerun(data_name)`.
