@@ -5,7 +5,7 @@
 ---
 
 <p align="center">
-<img src="media/rerun_vision_robot.png" alt="Alt text" width="423">
+<img src="assets/generated/rerun_vision_robot.png" alt="Alt text" width="423">
 </p>
 
 ### **Objective**: Utilizes Rerun.io for precise 3D visualizations in Computer Vision, including animations of Sine Wave Surface, Bessel Wave, and Spheres. Point logging feature of Rerun.io for mapping and displaying 3D coordinates.
@@ -13,7 +13,7 @@
 ---
 
 <p align="center">
-<img src="media/dna_abacus/dna_abacus.gif" alt="DNA Abacus animation">
+<img src="assets/generated/dna_abacus/dna_abacus.gif" alt="DNA Abacus animation">
 <br>
 <sub><i>Figure: DNA Abacus. To run, execute: <code>python src/dna_abacus.py</code></i></sub>
 </p>
@@ -59,7 +59,7 @@ python src/demo_rerunio_graphics/3d_bessel.py
 ---
 
 <p align="center">
-<img src="media/wave_creature/fast.gif" alt="Wave Creature animation">
+<img src="assets/generated/wave_creature/fast.gif" alt="Wave Creature animation">
 <br>
 <sub><i>Figure: Wave Creature. To run, execute: <code>python src/demo_rerunio_graphics/wave_creature.py</code></i></sub>
 </p>
@@ -85,3 +85,4 @@ python src/demo_rerunio_graphics/wave_creature.py
 * **License**: MIT license.
 * **Note**: Rerun.io in early beta; consult [official guidance](https://www.rerun.io/docs/getting-started).
 * **Acknowledgments**: [rerun.io](https://www.rerun.io)
+`
